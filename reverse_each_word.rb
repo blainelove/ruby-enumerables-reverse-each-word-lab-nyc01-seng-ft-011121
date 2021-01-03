@@ -2,11 +2,13 @@ phrase = "Hello there, and how are you?"
 
 def reverse_each_word(phrase)
   string = ""
-  new_array =phrase.split
+  new_array = phrase.split
   new_array.each do |element|
-    string << element.reverse
+    string << " " + element.reverse
+
 
   end
+
   return string
 
 end
