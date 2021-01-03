@@ -4,7 +4,7 @@ def reverse_each_word(phrase)
   reversed_array = []
   new_array = phrase.split
   new_array.collect {|element| element.reverse}
-    reversed_array << element.reverse
+    
   end
   return reversed_array.join(" ")
 end
